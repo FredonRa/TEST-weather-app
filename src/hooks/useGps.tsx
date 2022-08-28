@@ -8,16 +8,16 @@ export const useGps = () => {
         latitude: 0, 
         longitude: 0
     });
-    const [error, setError] = React.useState(null);
+    const [error, setError] = React.useState<string | null>(null);
 
-    const onChange = ({ coords }) => {
+    const onChange = ({ coords }: {coords: {latitude: number, longitude: number}})=> {
         setPosition({
             latitude: coords.latitude,
             longitude: coords.longitude,
         });
     };
 
-    const onError = (error) => {
+    const onError = (error: {message: string}) => {
         setError(error.message);
     };
 
