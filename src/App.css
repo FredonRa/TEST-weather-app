@@ -55,7 +55,6 @@ html {
 .container .weather .first .ubication {
     display: flex;
     height: 30px;
-    width: 200px;
     font-size: 1.5em;
     align-items: center;
 }
