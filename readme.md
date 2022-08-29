@@ -7,10 +7,11 @@
 - Typescript
 - Hooks (native & custom)
 - MomentJS
+- Ubicación
 
 *** IMPLEMENTACIÓN ***
 
-- API FETCH (GET)
+- FETCH ASYNC/AWAIT (https://openweathermap.org)
 - RENDER DE CLIMA EN UBICACIÓN PROPIA
 - RENDER DE CLIMA EN 5 CIUDADES DIFERENTES
 
@@ -22,7 +23,7 @@ https://test-weather-app-eta.vercel.app/
 
 *** RUN ***
 
-- AGREGAR API KEY EN EL RESPECTIVO .env 
+- AGREGAR API KEY EN EL RESPECTIVO .env (https://home.openweathermap.org/api_keys)
 
 ```console
 $ npm install
